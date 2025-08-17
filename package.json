@@ -1,0 +1,27 @@
+{
+  "name": "expressglass-backend",
+  "version": "1.0.0",
+  "description": "API Backend para Portal de Agendamento Expressglass",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'",
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "keywords": [
+    "expressglass",
+    "agendamento",
+    "netlify",
+    "postgresql",
+    "api"
+  ],
+  "author": "Expressglass",
+  "license": "MIT"
+}
+
